@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 data-testid="slackUserName">James Ayomikun Araoye</h1>
+        <img src="me.jpg" alt="Phoenix" data-testid="slackDisplayImage">
+    </header>
+    <section>
+        <div class="data-card" data-testid="currentDayOfTheWeek">
+            <h2>Current Day</h2>
+            <p id="dayOfWeek">Monday</p>
+        </div>
+        <div class="data-card" data-testid="currentUTCTime">
+            <h2>Current UTC Time</h2>
+            <p id="utcTime">12:00 PM</p>
+        </div>
+    </section>
+    <div class="data-card" data-testid="myTrack">
+        <h2>My Track</h2>
+        <p id="track">Web Development</p>
+    </div>
+    <div class="data-card" data-testid="githubURL">
+        <h2>Github URL</h2>
+        <a href="https://github.com/yourusername" id="githubLink">https://github.com/yourusername</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
